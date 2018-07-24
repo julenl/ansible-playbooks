@@ -1,5 +1,5 @@
 ---
-- name: Download moduels from github
+- name: Download modules from github
   git:
     repo: "https://github.com/Icinga/icingaweb2-module-{{ item }}.git"
     dest: "{{ modules_dir }}/{{ item}}"
